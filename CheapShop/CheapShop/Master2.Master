@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master2.master.cs" Inherits="CheapShop.Master2" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+   <link href="Style/Mas2.css" rel="stylesheet" />
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster+Two|Pacifico');
+    </style>
+</head>
+<body>
+
+    
+
+    <section>
+        <!-- This is Section 1 of the page -->
+        <div class="section1">
+            <img src="Images/logo.png" class="logo" />
+
+            <div class="navigation">
+                <img src="Images/category.png" class="toggle" />
+                <a class="cgr" style="align-content:center">Categories</a>
+            </div>
+            <div>
+                <a class="submenu" href="Products.aspx">All Product</a>
+                <a class="submenu" href="Sensor.aspx">Sensor</a>
+                <a class="submenu" href="Arduino.aspx">Arduino</a>
+                <a class="submenu" href="Ic.aspx">IC</a>
+                <a class="submenu" href="MicroController.aspx">Micro Controller</a>
+              
+                <a class="submenu" href="Cables.aspx">Cables & Connectors</a>
+                <a class="submenu"href="Display.aspx">Displays</a>
+                
+                <a class="submenu" href="Tools.aspx">Tools</a>
+            </div>
+           
+          
+        
+
+
+        </div>
+
+
+
+        <!-- This is section 2 of the page -->
+        <div class="section2">
+           
+
+<!--<p1> for any query dial </p1>
+            <img src="Images/callLogo.png" class="call-icon" />
+            <span class="tel-no">+8801686627066</span>
+            -->
+            <div style="margin-top:7%; margin-left:30%;width:23vw">
+
+                <asp:ContentPlaceHolder ID="mascontent9" runat="server">
+
+                </asp:ContentPlaceHolder>
+
+                
+
+    <!--      <input type="text" id="search_txt" placeholder="search" style="margin-top:7%; margin-left:30%;width:23vw" />
+                <button type="submit" id="searchBTn" class="btnsrch" onclick="searchk();">Search</button>
+
+          
+                -->
+              
+            
+             </div>
+         
+
+
+            <nav style="margin-top:20%">
+                <a  class="menuitem" href="Home.aspx" >Home</a>
+               
+                <a class="menuitem" href="Login.aspx">My Account</a>
+                <a class="menuitem" href="ContactUs.aspx">Contact Us</a>
+                <a class="menuitem"href="Faq.aspx">FAQ</a>
+                <a class="menuitem"href="AdminLogin.aspx">Admin Panel</a>
+                <a class="menuitem" href="Cart.aspx">Cart</a>
+            </nav>
+
+         
+            <div class="start">
+
+          
+             <asp:ContentPlaceHolder ID="MasContent2" runat="server">
+
+                
+
+
+
+            </asp:ContentPlaceHolder>
+                </div>
+
+
+          
+
+
+          
+
+          
+
+          
+
+
+        </div>
+    </section>
+
+    <div class="background">
+
+    </div>
+
+ 
+
+  <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+        function searchk() {
+            window.location = "Login.aspx";
+
+            
+        }
+    </script>
+
+
+
+</body>
+</html>
+
+
+
+
+

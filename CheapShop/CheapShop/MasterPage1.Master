@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage1.master.cs" Inherits="CheapShop.MasterPage1" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+
+ <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Style/StyleMaster.css" rel="stylesheet" />
+     
+    
+    
+</head>
+   
+<body>
+    
+    <form id="form1" runat="server">
+
+       
+      <table>
+           <tr>
+               
+               <td colspan="2" style="width:800px;height:100px;">
+                  
+                
+                   <div id="menu">
+                       
+
+                       
+                       
+                       <ul>
+                           <li>
+                               <a href="Home.aspx" style="text-align:center">Home</a>
+                           </li>
+                            <li>
+                               <a href="login.aspx" style="text-align:center">My Account</a>
+                           </li>
+                            <li>
+                               <a href="ContactUS.aspx" style="text-align:center">Contact Us</a>
+                           </li>
+                            <li>
+                               <a href="Faq.aspx" style="text-align:center">FAQ</a>
+                           </li>
+                       </ul>
+                       </div>
+
+
+
+               </td>
+           </tr>
+           <tr>
+               <td style="width:150px;height:508px; background-color: #4cff00; text-align:center">
+
+               </td>
+               <td style="width:650px;height:508px; background-color:#ff0000; text-align:center" >
+                   <asp:ContentPlaceHolder ID="MasterPageContentHolder" runat="server">
+
+                   </asp:ContentPlaceHolder>
+               </td>
+           </tr>
+           <tr>
+               <td colspan="2" style="width:800px;height80px; background-color: #00ffff; text-align:center">
+
+               </td>
+           </tr>
+       </table>
+    </form>
+      
+    
+        <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

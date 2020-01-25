@@ -1,0 +1,56 @@
+﻿body {
+}
+.stl {
+    background-color: #DCF7DB;
+    margin-left: 80px;
+    padding: 0px;
+    //width: 80%;
+    width: 700px;
+    height: auto;
+    // background: #fab359;
+}
+
+.auto-style1 {
+    width: 100%;
+}
+
+.auto-style2 {
+    width: 175px;
+}
+
+.auto-style3 {
+    width: 100%;
+    height: 142px;
+    margin-bottom: 108px;
+    background-color: #FFFFCC;
+}
+
+.auto-style4 {
+    width: 124px;
+}
+
+.adminhome {
+
+}
+
+li {
+    width: 90%;
+    display: block;
+    font-size: 14px;
+    font-family: Tahoma;
+    padding: 10px;
+    margin: 10px auto;
+    color: #0E3C29;
+}
+
+    li.q {
+        font-size: 1.3em;
+        cursor: pointer;
+        background-color: #ccc;
+    }
+
+    li.a {
+        margin-left: 10px;
+        font-size: 1em;
+    }
+

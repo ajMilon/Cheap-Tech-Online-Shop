@@ -1,0 +1,86 @@
+﻿body {
+}
+.Login {
+    width: 600px;
+    height: 450px;
+    background: #fab359;
+}
+
+.Login_form {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 6px;
+    border-bottom: 3px solid #b5caff;
+}
+
+    .Login_form h1 {
+        font-family: Calibri;
+        font-size: 20px;
+        color: #fff;
+        background: #6189df;
+        text-align: left;
+        padding-left: 15px;
+        text-transform: uppercase;
+        line-height: 2;
+        border-left: 2px solid #244180;
+        border-right: 2px solid #244180;
+    }
+
+.Login_un {
+    float: left;
+    margin: 20px 0px 0px 18px;
+    width: 350px;
+    height: 32px;
+    padding-left: 10px;
+    font-family: Segoe UI;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background: url('../Images/icons8-password-48.png') no-repeat;
+    background-position: 335px 5px;
+    border_radius: 8px;
+}
+
+.Login_form input:focus {
+    border: 1px solid #f90;
+    outline: none;
+}
+
+.Login_ps {
+    float: left;
+    margin: 20px 0px 0px 18px;
+    width: 350px;
+    height: 32px;
+    padding-left: 10px;
+    font-family: Segoe UI;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background-position: 335px 5px;
+    // background: url('../Images/icons8-password-48.png') no-repeat;
+    border_radius: 8px;
+}
+
+.Login_btn {
+    float: right;
+    background: #e9e9e9;
+    color: #6189df;
+    font-family: Calibri;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #b8cfff;
+    border_radius: 6px;
+    margin: 15px 22px 0px 0px;
+    padding: 6px 17px 8px 18px;
+}
+.Login_lb1
+
+{
+    float: left;
+    font: bold 12px segoe ui;
+    color: #ff0000;
+    padding-left: 20px;
+    margin: 25px 0px 0px 20px;
+}
